@@ -44,3 +44,15 @@
 ## Type Casting
 
   - type casting = convert the datatype of a value to another datatype
+
+## User-Input
+
+## Math Functions
+
+  - round : nearest whole int
+  - ceiling (math.ceil()) : nearest whole int rouding up
+  - floor (math.floor()) : nearest whole int rouding down 
+  - absolute value function (abs): gives absolute value of a number, how far away a number is from zero -- even when given a negative number it will return positive
+  - power function (pow): will raise a base number to a power
+    - print(pow(base, exponent))
+  - Square root (sqrt): find the sqaure root of variable -- does not work on negative 
