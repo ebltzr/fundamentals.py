@@ -35,4 +35,5 @@
 
 ## String methods
 
+  - length method (len):
   - 
