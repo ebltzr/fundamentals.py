@@ -36,4 +36,11 @@
 ## String methods
 
   - length method (len):
-  - 
+  - find method (.find("x"))
+  - capitalize (.capitalize())
+  - upper (.upper())
+  - Alphabetical letters (.isalpha())
+
+## Type Casting
+
+  - type casting = convert the datatype of a value to another datatype
