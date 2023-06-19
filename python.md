@@ -29,6 +29,10 @@
 
 - the reason you may want to use booleans instead of str even though you can still store a str representation of the word false or true is that, these are very useful when we get to if statements. we can check to see if some statement is true/false
 
+## Multiple Assignment
+
+  - multiple assignment: allows us to assign multiple variables at the same time at the same time using one line of code
+
 ## String methods
 
   - 

@@ -43,9 +43,9 @@
 
 # boolean -- True or False
     # variable that only stores True or False
-human = True # or False
-print(human) # True
-print(type(human)) # <class 'bool'>
+# human = True # or False
+# print(human) # True
+# print(type(human)) # <class 'bool'>
 # don't put boolean in quotes data type will change to str -- see that the color between str and bool changes
 # human = "True"
 # now what if you need to display your value along with str using str concatenation -- typecast
