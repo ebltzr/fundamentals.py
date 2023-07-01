@@ -65,3 +65,23 @@
 
 ## If Statements
 -  a block of code that will execute if it's condition is true
+
+## logical operators
+
+- and, or, not -- logical operators focused on and , or 
+- used to check if two or more conditional statements are true
+
+## while Loops
+- a statement that will execute it's block of code as long as it's condition remains true
+- can cause an infinite loop
+
+## for Loops
+- a statement that will execute it's block of code a limited amount of times
+  - while loop = unlimited
+  - for loop = limited
+  
+## Nested loops
+- for loop or while loop -- concept of having one loop inside of another
+- the 'inner loop' will finish all of it's iterations before we finish one iteration of the 'outer loop'
+
+
