@@ -13,7 +13,7 @@
       - print('Hello World') -- run -- see terminal window of printed string
       - print("Hello World") -- run -- see terminal window of printed string
 
-## Variables - Pt 1
+## Variables 
   - a variable = container for a value. behaves as the value that it contains
   - 4 basic datatypes
       - strings (str): which store a series of characters 
@@ -84,4 +84,28 @@
 - for loop or while loop -- concept of having one loop inside of another
 - the 'inner loop' will finish all of it's iterations before we finish one iteration of the 'outer loop'
 
+## Loop Control Statements
+- change a loops execution from its normal sequence
+- break = used to to terminate the loop entirely
+- continue = skips to the next iteration of the loop
+- pass = does nothing, acts as a placeholder
 
+## Lists
+- used to store multiple items in a single variable
+    - print list
+    - print list with given index
+    - change index value
+    - .append: add value to end of list
+    - .remove: removes value from list
+    - .pop: removes last value from list
+    - .insert: add value to given index
+    - .sort: sort list alphabetically
+    - .clear: clears all the elements of a list, so this will not print anything
+
+## 2D Lists
+  - list of lists
+  - multidimensional list
+  - if you need to access one of the elements within your 2D list, you need two sets of brackets [][]
+
+## Tuples
+  - collections which is ordered and unchangeable used to group together relate data
