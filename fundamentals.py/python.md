@@ -102,10 +102,50 @@
     - .sort: sort list alphabetically
     - .clear: clears all the elements of a list, so this will not print anything
 
-## 2D Lists
+### *2D Lists*
   - list of lists
   - multidimensional list
   - if you need to access one of the elements within your 2D list, you need two sets of brackets [][]
 
-## Tuples
-  - collections which is ordered and unchangeable used to group together relate data
+### *Tuples*
+  - collections very similar to list but are ordered and unchangeable, used to group together related data
+    - like list but instead of square bracketss [] you use paraentheses ()
+
+### *Set*
+  - collection different from list because they are unordered, unindexed. No duplicate values
+  - - .add: add value to end of list
+    - .remove: removes value from list
+    - .clear: clears all the elements of a list, so this will not print anything
+    - .update: add one set to another
+    - .join: two sets together and create a new set entirely
+    - .difference: compare similarities/differences in sets
+    - .intersection: check if sets have anything in common
+
+## Dictionary
+  - changeable (ie mutable), unordered collection of unique key:value pairs 
+  - they are FAST because they use hashing, that allow us to access a value quickly
+  - creating a dict is very similar to creating a set except we ar going to store unique key, value pairs
+    - in order to access one of these values value instead of using a numbered index we use the associated key
+      - .get method; safer way of checking if there is a key within your dict
+      - .keys method; this will print only the keys and not the values
+      - .values method; this will print only the values and not the keys
+      - .items method; print entire dict
+          - another way to print entire dict is for loop
+      - .update: to add a new key:value pair
+          - to update an existing key:value pair
+      - .pop: to remove a key:value pair
+      - .clear: to clear entire dict
+
+## Index Operator 
+  - represented by a set of square brackets []
+  - gives access to a sequence's element include but not limited to
+      - str (example focused)
+      - list
+      - tuples
+  - create substring [start:end] from the first part of name, this substring start at index[0] and end at index[4] ie rico index 0,1,2,3
+  - negative indexing ie -1 is the last letter of string
+  
+## functions
+- a block of code which is executed only when it is called
+  - function can perform some specific task whenever it is called, instead of writing code repeatedly you only need to write that block of code once and call it when you want to use it
+  - 

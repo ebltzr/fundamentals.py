@@ -1,3 +1,3 @@
-food.sort()
-# for x in food:
-#     print(x)
+if (name[0].islower()):
+#     name = name.capitalize()
+# print(name)
