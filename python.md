@@ -148,4 +148,54 @@
 ## functions
 - a block of code which is executed only when it is called
   - function can perform some specific task whenever it is called, instead of writing code repeatedly you only need to write that block of code once and call it when you want to use it
-  - 
+- in functions we can pass arguments to function and our function can do something with those arguments
+
+## return statement
+- functions send python values/objects back to the caller
+  - these values/objects are known as the functions return value
+- function can pass some value/object back to the called
+  - print to the console window or store within variable or other location
+
+## keyword arguments 
+- arguments preceded by an identifier when we pass them to function
+- The order of the arguments *DOESN'T* matter unlike positional arguments Python knows the names of the arguments that our function receives
+  - positional arguments:
+def hello(first,middle,last):
+  print('Hello '+first+' '+middle+' '+last)
+
+hello('last','mid','first')
+  *Hello last mid first*
+
+- precede each argument with a unique identifier (id) -- id is the name of the parameter (ie first) we want to associate each argument with
+  - keyword arguments:
+def hello(first,middle,last):
+  print('Hello '+first+' '+middle+' '+last)
+
+hello(last='last',first='first',mid='mid')
+  *Hello first mid last*
+
+## Nested function calls
+- function calls inside other function calls
+  -  this is possible because certain functions will return a value and we can immediately use that value as an argument for the next function
+- innermost function calls are resolved first
+- return value is used as an argument for the outer function
+
+## Scope (variable)
+- region that a variable is recognized
+  - a variable is only available from inside the region it is created
+- global and locally scoped versions of a variable can be created 
+- it is possible to have a local and global verison of the same named variable
+  - you will first use local version available and then global
+- **PYTHON RULE:**
+  - L = Local (use local variables first)
+  - E = Enclosing
+  - G = Global
+  - B = Built-in
+
+## *args Parameter
+- parameter that will pack all arguments into a tuple, useful so that a function can accept a varying amount of arguments
+- *args can be named anything but has to have the asterisk -- this is form of packing, we are passing all of these arguments and packing them into a tuple
+  - one way to change from tuple to list is by casting
+
+  ### **kwargs Parameter
+- parameter that will pack all arguments into a dictionary, useful so that a function can accept a varying amount of keyword arguments

@@ -1,3 +1,4 @@
-if (name[0].islower()):
-#     name = name.capitalize()
-# print(name)
+def hello(name):
+#     print('Hello ' + name)
+    
+# hello('First', 'Last')
