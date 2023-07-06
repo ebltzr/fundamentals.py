@@ -196,6 +196,53 @@ hello(last='last',first='first',mid='mid')
 - parameter that will pack all arguments into a tuple, useful so that a function can accept a varying amount of arguments
 - *args can be named anything but has to have the asterisk -- this is form of packing, we are passing all of these arguments and packing them into a tuple
   - one way to change from tuple to list is by casting
+  - args stands for arguments
 
   ### **kwargs Parameter
-- parameter that will pack all arguments into a dictionary, useful so that a function can accept a varying amount of keyword arguments
+- parameter that will pack all arguments into a dictionary, useful so that a function can accept a varying amount of keyword arguments 
+- identical to *args EXCEPT with *args, *args will accept a varying amount of postional arguments and pack them into a tuple. *kwargs accepts a varying amount of keyword arguments and pack them into a dictionary
+- **kwargs can be named anything like *args but important thing is the double asterisks 
+- kwargs stands for keyword arguments
+
+## format method
+- optional method that gives users more control when displaying output
+- available to strings (only)
+- use format fields with curly braces {} : they function as a placeholder for a value or variable
+    - they work in order they are give, first format field with first value, second format field with second value etc
+- also has varying number formats
+  - {.2f} -- display 2 decimal points
+  - {.3f} -- display 3 decimal points
+  - {:,} -- want to add a comma to the thousands place
+  - {:b} -- displays binary representation of your number
+  - {:o} -- displays number as octal number
+  - {:x} -- displays number in lowercase hexadecimal
+      - {:X} -- displays number in uppercase hexadecimal
+  - {:e} -- display number in lowercase scientific notation
+      - {:E} -- display number in uppercase scientific notation
+
+## random module
+- import random <-- must import
+- generate some random numbers and other useful ranom methods
+  - random.randint : this will give us a random number between specified values
+  - random.random : this will give us a random number between 0 and 1
+  - random.choice : this will display random choice from list
+  - random.shuffle : this will output list with shuffled values
+
+## exception handling
+- events dected during execution that interrupt the flow of a program
+- it is not considered good practice to have a single except block that will handle all exceptions
+  - it's much better to first handle specific exceptions when they occur
+    - except Exception : print whatever you want
+    - except ZeroDivisionError: ZeroDivisionError: division by zero
+    - except ValueError: ValueError: invalid literal for int() 
+    - can use an else statement after exception without an if conditional
+    - finally : always at the end, whether or not we encounter an exception always is executed
+    - good opportunity if you open files, to close them within the finally ( no files in this example)
+
+# Doing things with files section
+
+## File Dectection
+- import os module
+- checking to see if a file exists some place in our computer
+
+## Reading a file 
