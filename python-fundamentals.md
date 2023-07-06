@@ -46,6 +46,7 @@
   - type casting = convert the datatype of a value to another datatype
 
 ## User-Input
+- when using user input can use \n (new line character) will create new line
 
 ## Math Functions
 
@@ -238,11 +239,3 @@ hello(last='last',first='first',mid='mid')
     - can use an else statement after exception without an if conditional
     - finally : always at the end, whether or not we encounter an exception always is executed
     - good opportunity if you open files, to close them within the finally ( no files in this example)
-
-# Doing things with files section
-
-## File Dectection
-- import os module
-- checking to see if a file exists some place in our computer
-
-## Reading a file 
